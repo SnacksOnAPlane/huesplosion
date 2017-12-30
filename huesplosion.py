@@ -13,9 +13,9 @@ br.connect()
 
 def changeColor():
   color = randint(1, 65535)
-  br.set_light(LIGHT_NAMES, 'bri', 0)
   br.set_light(LIGHT_NAMES, 'hue', color)
-  br.set_light(LIGHT_NAMES, 'bri', 254, transitiontime=DELAY)
+  br.set_light(LIGHT_NAMES, 'bri', 254)
+  br.set_light(LIGHT_NAMES, 'bri', 0, transitiontime=DELAY)
 
 while(True):
   changeColor()
