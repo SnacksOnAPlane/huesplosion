@@ -6,8 +6,9 @@ import time
 
 LIGHT_NAMES = ['bloom']
 DELAY = 20
+BRIDGE_IP = '192.168.1.81'
 
-br = Bridge('192.168.1.81')
+br = Bridge(BRIDGE_IP)
 br.connect()
 
 def changeColor():

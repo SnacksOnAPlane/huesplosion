@@ -1,3 +1,7 @@
 # huesplosion
 
-Run `pip install phue` and then just run `./huesplotion.py`
+Run `pip install phue`.
+
+Modify `LIGHT_NAMES` and `BRIDGE_IP` in python file.
+
+Run `./huesplotion.py`.
